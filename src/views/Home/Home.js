@@ -38,7 +38,7 @@ function Home() {
 
 
             const newTodoList = todolist.filter((item, i)=>{
-                if (i == index){
+                if (i === index){
                     return false
                 }
                 else{
